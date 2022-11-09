@@ -1,0 +1,24 @@
+{
+  "name": "app-04-formulario-fs",
+  "version": "1.0.0",
+  "description": "Cuarto ejercicio de electronJS con Boopstrap",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron app.js",
+    "start": "electron app.js"
+  },
+  "keywords": [
+    "Electron",
+    "Nodejs",
+    "escritorio"
+  ],
+  "author": "Pedro Flores",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1"
+  }
+}

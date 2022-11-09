@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUARTA APLICACIÓN</title>
+    <!-- CSS only -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    
+    <style>
+        #contact-list{
+            height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+
+
+    <div class="container">
+        <h1>Lista de contactos</h1>
+    
+
+<form>
+
+    <div class="form-group">
+        <label for="">Nombre</label>
+        <input type="text"
+            name="txtNombre"
+            id="txtNombre"
+            placeholder="Captura tu nombre"
+            class="form-control"
+            required>
+    </div>
+
+    <div class="form-group">
+        <label for="">Correo</label>
+        <input type="email"
+            name="txtCorreo"
+            id="txtCorreo"
+            placeholder="Captura tu correo"
+            class="form-control"
+            required>
+    </div>
+
+    <div style="height:15px"></div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Agregar Contacto</button>
+    </div>
+
+</form>
+
+    <div style="height:15px"></div>
+    <div id="contact-list">
+        <table class="table table-striped" id="contact-table" style="width: 100%;">
+            <tr>
+                <th class="col-xs-2">Número</th>
+                <th class="col-xs-4">Nombre</th>
+                <th class="col-xs-6">Corre0</th>
+            </tr>
+        </table> 
+    </div>
+
+</div>
+
+
+    <script src="./view.js"></script>
+
+</body>
+</html>

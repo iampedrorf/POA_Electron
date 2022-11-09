@@ -1,0 +1,24 @@
+{
+  "name": "app-06",
+  "version": "1.0.0",
+  "description": "Sexto ejercicio de Cliente Servidor",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron app.js",
+    "start": "electron app.js"
+  },
+  "keywords": [
+    "Electron",
+    "Nodejs",
+    "escritorio"
+  ],
+  "author": "Pedro Flores",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1"
+  }
+}
